@@ -3,49 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
   <title>Happy Hour Guide</title>
-
-  <script>
-    $(function() {
-     var bars = [];
-     $.getJSON("C:/Users/Emily/Documents/emjreinhart.github.io/data.json", function(data) {
-         $.each(data.Bars, function(i, f) {
-            var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
-             "<td>" + f.Area + "</td>" + "<td>" + f.Address + "</td>" + "<td>" + f.Website + "</td>" + "<td>" + f.Phone + "</td>"
-             + "<td>" + f.Monday + "</td>" + "<td>" + f.Tuesday + "</td>" + "<td>" + f.Wednesday + "</td>" + "<td>" + f.Thursday + "</td>"
-             + "<td>" + f.Friday + "</td>" + "<td>" + f.Saturday + "</td>" + "<td>" + f.Sunday + "</td>" + "</tr>"
-             $(tblRow).appendTo("#userdata tbody");
-       });
-     });
-  });
-</script>
 </head>
 
 <body>
-  <h1>HAPPY HOUR DATABASE</h1>
-  <div class="wrapper">
-  <div class="profile">
-     <table id= "userdata" border="2">
-    <thead>
-              <th>Name</th>
-              <th>Area</th>
-              <th>Address</th>
-              <th>Website</th>
-              <th>Phone</th>
-              <th>Monday</th>
-              <th>Tuesday</th>
-              <th>Wednesday</th>
-              <th>Thursday</th>
-              <th>Friday</th>
-              <th>Saturday</th>
-              <th>Sunday</th>
-          </thead>
-        <tbody>
-         </tbody>
-     </table>
-  </div>
-  </div>
+  <h1>Welcome to the Happy Hour Database!</h1>
+  <h2>A Guide Happy Hour in San Antonio</h2>
 
 </body>
 

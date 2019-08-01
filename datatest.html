@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="data.json"></script>
+<script type="text/javascript">
+  var tData = JSON.parse(LOCALFILE);
+    $(function(){
+        $.function(tData){
+            console.log('success');
+            $.each(tData.bars,function(i,emp){
+                $('ul').append('<li>'+emp.name+' '+emp.address+'</li>');
+            });
+        }).error(function(){
+            console.log('error');
+        });
+    });
+</script>
+</head>
+<body>
+    <ul></ul>
+    <p>Hello World</p>
+</body>
+</html>

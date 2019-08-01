@@ -1,33 +1,42 @@
 {
-  "Bars": [
+  "bars": [
     {
-      "Name": "Cured",
-      "Area": "Pearl",
-      "Address": "306 Pearl Pkwy #101, San Antonio, Texas 78215",
-      "Website": "https://curedatpearl.com",
-      "Phone": "(210)314-3929",
-      "Monday": "3 PM - 6 PM",
-      "Tuesday": "3 PM - 6 PM",
-      "Wednesday": "3 PM - 6 PM",
-      "Thursday": "3 PM - 6 PM",
-      "Friday": "3 PM - 6 PM",
-      "Saturday": "3 PM - 6 PM",
-      "Sunday": ""
+      "name": "Cured",
+      "address": "306 Pearl Pkwy #101, San Antonio, Texas 78215",
+      "website": "https://curedatpearl.com",
+      "phone": "(210)314-3929",
+      "monday": "3 PM - 6 PM",
+      "tuesday": "3 PM - 6 PM",
+      "wednesday": "3 PM - 6 PM",
+      "thursday": "3 PM - 6 PM",
+      "friday": "3 PM - 6 PM",
+      "saturday": "3 PM - 6 PM",
+      "sunday": " ",
+      "area": [
+        {
+          "1": "Pearl",
+          "2": " "
+        }
+      ]
     },
-  {
-    "Name": "Ocho",
-    "Area": [
-      {"1": "Riverwalk",
-        "2": "Downtown"}]
-    "Address": "1015 Navarro St, San Antonio, Texas 78205",
-    "Website": "http://www.havanasanantonio.com/ocho.shtml",
-    "Phone": "(210)222-2008",
-    "Monday": "3 PM - 6 PM",
-    "Tuesday": "3 PM - 6 PM",
-    "Wednesday": "3 PM - 6 PM",
-    "Thursday": "7 AM - 10 PM",
-    "Friday": "3 PM - 6 PM",
-    "Saturday": "",
-    "Sunday": ""
-  }
-]
+    {
+      "name": "Ocho",
+      "address": "1015 Navarro St, San Antonio, Texas 78205",
+      "website": "http://www.havanasanantonio.com/ocho.shtml",
+      "phone": "(210)222-2008",
+      "monday": "3 PM - 6 PM",
+      "tuesday": "3 PM - 6 PM",
+      "wednesday": "3 PM - 6 PM",
+      "thursday": "7 AM - 10 PM",
+      "friday": "3 PM - 6 PM",
+      "saturday": " ",
+      "sunday": " ",
+      "area": [
+        {
+          "1": "Riverwalk",
+          "2": "Downtown"
+        }
+      ]
+    }
+  ]
+}
