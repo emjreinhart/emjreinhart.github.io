@@ -97,6 +97,7 @@ nav::before {
 nav a {
   margin: 0.5em 0;
   padding: 0.2em 2em;
+  font-family: 'Roboto Slab', serif;
   font-size: 1.5em;
   color: black;
   /* text-shadow: 1px 1px black; */
@@ -188,6 +189,7 @@ body {
   background: #444;
   color: white;
   font: 1em/1.4 "lato";
+  font-family: 'Roboto Slab', serif;
 }
 main {
   padding: 5% 0;
@@ -196,6 +198,7 @@ article {
   width: 80%;
   margin: 0 auto;
   font-size: 1.3em;
+  font-family: 'Roboto Slab', serif;
 }
 @media (min-width: 60em) {
   article {
