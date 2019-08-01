@@ -3,7 +3,7 @@
 }
 body {
   text-align: center;
-  background: url(https://i.imgur.com/9AywH2z.jpg) repeat center center fixed;
+  background: url(https://i.imgur.com/9AywH2z.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,9 +33,49 @@ img {
 }
 @media (max-width: 500px) {
   body {
-    background-color: rgba(199, 201, 255, 1);
-    background: linear-gradient(bottom, rgba(199, 201, 255, 1), rgba(255,255,255,0.1));
-    background: -webkit-linear-gradient(bottom, rgba(199, 201, 255, 1), rgba(255,255,255,0.1));
-    background: -moz-linear-gradient(bottom, rgba(199, 201, 255, 1), rgba(255,255,255,0.1));
+    background-color: rgba(176, 179, 255, 1);
+    background: linear-gradient(bottom, rgba(255,255,255,0.1), rgba(148, 152, 255, 1));
+    background: -webkit-linear-gradient(bottom, rgba(255,255,255,0.1), rgba(148, 152, 255, 1));
+    background: -moz-linear-gradient(bottom, rgba(255,255,255,0.1), rgba(148, 152, 255, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: list-item;
+}
+li {
+  float: left;
+}
+li a, .dropbtn {
+  display: list-item;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #8dc2d9; */
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
