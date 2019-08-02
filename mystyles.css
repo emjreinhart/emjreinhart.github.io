@@ -5,15 +5,15 @@
 @-ms-viewport {
   width: device-width;
 }
-.center {
-  padding: 70px 0;
-}
-html {
+html, body {
   background: url(https://i.imgur.com/oXI8tSF.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
+  -webkit-background-size: 100%;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.center {
+  padding: 70px 0;
 }
 body {
   text-align: center;
@@ -40,7 +40,8 @@ img {
   border-radius: 50%;
 }
 @media only screen and (max-width: 767px) {
-  html {
+  html, body {
     background-image: url(https://i.imgur.com/n6SmZFv.png);
+    background-size: cover;
   }
 }
