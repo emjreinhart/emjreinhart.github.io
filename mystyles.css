@@ -36,16 +36,17 @@ img {
   border: 5px solid white;
   border-radius: 50%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   body {
     background: url(https://i.imgur.com/n6SmZFv.png) no-repeat center center fixed;
     /* background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; */
-    background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100%;
   }
 }
