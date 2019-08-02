@@ -11,6 +11,8 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
+  min-height: 100%;
 }
 .center {
   padding: 70px 0;
@@ -39,7 +41,7 @@ img {
   border: 5px solid white;
   border-radius: 50%;
 }
-@media only screen and (max-width: 479px) {
+/* @media only screen and (max-width: 479px) {
   html {
     background-image: url(https://i.imgur.com/0Nxgp4T.jpg) no-repeat center center scroll;
     -webkit-background-size: auto 100vh;
@@ -47,4 +49,4 @@ img {
     -o-background-size: auto 100vh;
     background-size: auto 100vh;
   }
-}
+} */
