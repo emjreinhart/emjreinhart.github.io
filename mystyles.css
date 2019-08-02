@@ -11,10 +11,10 @@
 body {
   text-align: center;
   background: url(https://i.imgur.com/9AywH2z.jpg) no-repeat center center fixed;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
 }
 .mainContent {
   color: white;
@@ -39,10 +39,13 @@ img {
 @media screen and (max-width: 480px) {
   body {
     background: url(https://i.imgur.com/n6SmZFv.png) no-repeat center center fixed;
+    /* background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #a5acc9;
+    -o-background-size: cover; */
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
   }
 }
