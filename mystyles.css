@@ -39,6 +39,6 @@ img {
     background: -webkit-linear-gradient(bottom, rgba(255,255,255,0.1), rgba(148, 152, 255, 1));
     background: -moz-linear-gradient(bottom, rgba(255,255,255,0.1), rgba(148, 152, 255, 1));
     background-repeat: no-repeat; */
-    background-size: cover;
+    background: url(https://i.imgur.com/n6SmZFv.png) no-repeat center center fixed;
   }
 }
