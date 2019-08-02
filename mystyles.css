@@ -1,3 +1,10 @@
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@-ms-viewport {
+  width: device-width;
+}
 .center {
   padding: 70px 0;
 }
@@ -29,12 +36,13 @@ img {
   border: 5px solid white;
   border-radius: 50%;
 }
-@media (max-width: 479px) {
+@media screen and (max-width: 480px) {
   body {
     background: url(https://i.imgur.com/n6SmZFv.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: #a5acc9;
   }
 }
