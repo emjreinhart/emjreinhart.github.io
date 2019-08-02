@@ -29,7 +29,7 @@ img {
   border: 5px solid white;
   border-radius: 50%;
 }
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   body {
     background: url(https://i.imgur.com/n6SmZFv.png) no-repeat center cover fixed;
   }
