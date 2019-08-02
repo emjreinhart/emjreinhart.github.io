@@ -8,10 +8,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* background-color: #a5acc9; */
-  /* color: white;
-  font-family: helvetica;
-  text-shadow: 2px 2px #000000; */
 }
 .mainContent {
   color: white;
@@ -23,6 +19,7 @@ h1 {
   font-family: 'Roboto Slab', serif;
   text-shadow: 2px 2px black;
 }
+
 p {
   font-family: 'Roboto Slab', serif;
   font-size: 22px;
@@ -32,13 +29,8 @@ img {
   border: 5px solid white;
   border-radius: 50%;
 }
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   body {
-    /* background-color: rgba(176, 179, 255, 1);
-    background: linear-gradient(bottom, rgba(255,255,255,0.1), rgba(148, 152, 255, 1));
-    background: -webkit-linear-gradient(bottom, rgba(255,255,255,0.1), rgba(148, 152, 255, 1));
-    background: -moz-linear-gradient(bottom, rgba(255,255,255,0.1), rgba(148, 152, 255, 1));
-    background-repeat: no-repeat; */
     background: url(https://i.imgur.com/n6SmZFv.png) no-repeat center cover fixed;
   }
 }

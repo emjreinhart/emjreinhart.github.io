@@ -131,15 +131,6 @@ nav a:hover, nav a:focus {
   color: white;
   text-shadow: 1px 1px black;
 }
-main {
-  overflow: hidden;
-}
-main .content {
-  transform: translate3d(0, 0, 0);
-  /* material acceleration */
-  will-change: transform, filter;
-  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-}
 [id="navcheck"]:checked + label::before {
   opacity: 1;
   pointer-events: auto;
@@ -183,17 +174,6 @@ main .content {
   position: absolute;
   width: 1px;
 }
-/* misc */
-body {
-  overflow-x: hidden;
-  background: #444;
-  color: white;
-  font: 1em/1.4 "lato";
-  font-family: 'Roboto Slab', serif;
-}
-main {
-  padding: 5% 0;
-}
 article {
   width: 80%;
   margin: 0 auto;
@@ -204,8 +184,4 @@ article {
   article {
     width: 50%;
   }
-}
-h1 {
-  font: 2.5em/1.4 "roboto condensed";
-  font-weight: 700;
 }
