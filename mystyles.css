@@ -8,13 +8,16 @@
 .center {
   padding: 70px 0;
 }
-body {
-  text-align: center;
+html {
   background: url(https://i.imgur.com/9AywH2z.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+body {
+  text-align: center;
+
 }
 .mainContent {
   color: white;
@@ -36,3 +39,12 @@ img {
   border: 5px solid white;
   border-radius: 50%;
 }
+/* @media only screen and (max-width: 479px) {
+  html {
+    background: url(https://i.imgur.com/n6SmZFv.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+} */
