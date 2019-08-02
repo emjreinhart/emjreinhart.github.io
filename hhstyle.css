@@ -5,21 +5,11 @@
 @-ms-viewport {
   width: device-width;
 }
-html {
-  background: url(https://i.imgur.com/9AywH2z.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  min-height: 100%;
-}
 .center {
   padding: 70px 0;
 }
 body {
   text-align: center;
-
 }
 .mainContent {
   color: white;
