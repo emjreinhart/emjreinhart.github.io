@@ -6,7 +6,12 @@
   width: device-width;
 }
 html {
-  background: url(https://i.imgur.com/9AywH2z.jpg) no-repeat center center fixed;
+  /* background: #c6e8f7; */
+  background: #d7f1fc;
+  /* background: url(https://i.imgur.com/9AywH2z.jpg) no-repeat center center fixed; */
+  background: linear-gradient(top, rgba(215, 241, 252, 1), rgba(107, 211, 255, 1)) no-repeat center center fixed;
+  background: -webkit-linear-gradient(top, rgba(215, 241, 252, 1), rgba(107, 211, 255, 1)) no-repeat center center fixed;
+  background: -moz-linear-gradient(top, rgba(215, 241, 252, 1), rgba(107, 211, 255, 1)) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
