@@ -28,18 +28,19 @@ body {
 }
 .mainContent {
   color: white;
-  font-family: 'Roboto Slab', serif;
-  text-shadow: 2px 2px #000000;
+  font-family: 'Open Sans', sans-serif;
 }
 h1 {
   color: white;
-  font-family: 'Roboto Slab', serif;
-  text-shadow: 2px 2px black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-shadow: 1px 1px grey;
 }
 
 p {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 22px;
+  text-shadow: 1px 1px grey;
 }
 img {
   width: 20%;

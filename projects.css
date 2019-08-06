@@ -1,0 +1,22 @@
+html {
+  background: lightgrey;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  min-height: 100%;
+}
+.projectStream {
+  margin-left: 10vh;
+  margin-top: 10vh;
+  font-family: 'Open Sans', sans-serif;
+  color: #d7f1fc;
+  color: #74d1d6;
+  font-size: 40px;
+}
+.projectModules {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: none;
+  color: grey;
+}
