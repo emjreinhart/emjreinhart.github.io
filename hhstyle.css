@@ -1,5 +1,5 @@
 
-html {
+body {
   background-color: lightgrey;
   /* background: url(https://i.imgur.com/bxAAIrh.jpg) no-repeat center center fixed; */
 background: linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(107, 211, 255, 1)) no-repeat center center fixed;
@@ -17,7 +17,7 @@ background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(107, 211, 
   color: white;
   text-align: left;
   padding-left: 100px;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 /* HEXAGON GRID **************/
