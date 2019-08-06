@@ -58,12 +58,6 @@ body {
     background-color: #17a2b8;
     color: #fff;
 }
-.not-hero-message {
-    color: #fff;
-    text-shadow: #343a40 2px 2px;
-    min-width: 50%;
-    min-height: 7em;
-}
 .hero-message {
     color: #fff;
     text-shadow: #343a40 2px 2px;
@@ -79,7 +73,7 @@ body {
     position: absolute;
     margin-left: 0;
     min-width: 100%;
-    min-height: 12em;
+    min-height: 100%;
     z-index: -1;
     opacity: 0.4;
     background-color: #343a40;
